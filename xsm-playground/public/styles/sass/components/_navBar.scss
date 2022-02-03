@@ -1,0 +1,15 @@
+.xsm-nav-bar {
+  height: 12vh;
+
+  padding: 10px 30px;
+  border-bottom: 0.8px solid var(--col-primary-border-grey);
+
+  display: flex;
+  flex-direction: row;
+
+  &__logo {
+    &--image {
+      height: 100%;
+    }
+  }
+}

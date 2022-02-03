@@ -15,11 +15,50 @@ body {
   --one-dark-primary-dark-blue: #21252b;
   --one-dark-primary-blue: #282c34;
   --one-dark-primary-light-blue: #36425a;
+  --col-primary-border-grey: #333333;
+}
+
+.App {
+  height: 100%;
 }
 
 #root {
   height: 100vh;
   width: 100vw;
   background-color: var(--one-dark-primary-dark-blue);
+}
+
+.xsm-home {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.xsm-home__debug-interface {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.xsm-nav-bar {
+  height: 12vh;
+  padding: 10px 30px;
+  border-bottom: 0.8px solid var(--col-primary-border-grey);
+  display: flex;
+  flex-direction: row;
+}
+
+.xsm-nav-bar__logo--image {
+  height: 100%;
+}
+
+.xsm-code-editor {
+  padding: 30px;
+  border-right: 0.8px solid var(--col-primary-border-grey);
+}
+
+.cm-theme {
+  height: 100% !important;
+  overflow-y: scroll;
 }
 /*# sourceMappingURL=style.css.map */

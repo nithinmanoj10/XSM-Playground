@@ -1,0 +1,16 @@
+.xsm-home {
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  &__nav-bar {
+  }
+
+  &__debug-interface {
+    flex: 1;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
