@@ -1,0 +1,19 @@
+.
+├── css
+│   ├── style.css
+│   └── style.css.map
+├── folder_structure.txt
+└── sass
+    ├── abstracts
+    │   └── _variables.scss
+    ├── base
+    │   ├── _base.scss
+    │   └── _typography.scss
+    ├── components
+    ├── layout
+    │   ├── _app.scss
+    │   └── _root.scss
+    ├── pages
+    └── style.scss
+
+7 directories, 9 files
