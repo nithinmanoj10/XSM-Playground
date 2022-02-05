@@ -1,0 +1,32 @@
+.xsm-register-pill {
+  display: flex;
+
+  &__name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    // border: 1px solid greenyellow;
+    background-color: var(--one-dark-primary-light-blue);
+    padding: 3px 6px;
+    width: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+    font-size: 14px;
+    text-align: center;
+    color: var(--col-font-register-text);
+  }
+
+  &__value {
+    // border: 1px solid aliceblue;
+    background-color: var(--one-dark-primary-blue);
+    border-radius: 0 10px 10px 0;
+    padding: 3px 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    color: var(--col-font-register-text);
+
+    width: 60px;
+    font-size: 14px;
+    text-align: center;
+  }
+}

@@ -1,0 +1,16 @@
+.xsm-register-panel {
+  //   border: 1px solid goldenrod;
+
+  &__name {
+    font-weight: 400;
+  }
+
+  &__box {
+    padding: 12px 0;
+
+    display: flex;
+    flex-wrap: wrap;
+    // justify-content: space-between;
+    gap: 10px 30px;
+  }
+}
