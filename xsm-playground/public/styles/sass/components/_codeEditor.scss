@@ -1,10 +1,17 @@
 .xsm-code-editor {
+  flex-grow: 1;
+  flex-basis: 60px;
+
   padding: 30px;
+
+  max-height: 100%;
+  // display: block;
+  // position: absolute;
+  // height:auto;
 
   border-right: 0.8px solid var(--col-primary-border-grey);
 }
 
 .cm-theme {
   height: 100% !important;
-  overflow-y: scroll;
 }
