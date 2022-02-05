@@ -5,6 +5,7 @@
   margin: 0;
   box-sizing: border-box;
   scrollbar-width: thin;
+  scrollbar-color: #95959585 var(--one-dark-primary-dark-blue);
 }
 
 body {
@@ -66,6 +67,15 @@ body {
 
 .cm-theme {
   height: 100% !important;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.cm-scroller {
+  font-family: "Hack" !important;
+}
+
+.cm-gutters {
+  color: #525252 !important;
 }
 
 .xsm-control-panel {

@@ -14,4 +14,14 @@
 
 .cm-theme {
   height: 100% !important;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+// For code editor font
+.cm-scroller {
+  font-family: "Hack" !important;
+}
+
+.cm-gutters {
+  color: rgb(82, 82, 82) !important;
 }
