@@ -1,0 +1,23 @@
+.xsm-side-nav-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &--register {
+      margin-bottom: 10px;
+    }
+
+    &--stack {
+      margin-bottom: 10px;
+    }
+
+    &--heap {
+    }
+  }
+}

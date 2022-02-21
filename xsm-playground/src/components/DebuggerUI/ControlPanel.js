@@ -1,6 +1,9 @@
 import React from "react";
 
 import RegisterPanel from "../Registers/RegisterPanel";
+import DebugControlPanel from "./DebugControlPanel";
+import ActionBar from "./ActionBar";
+import SideNavBar from "../NavBar/SideNavBar";
 
 function ControlPanel() {
   return (
@@ -10,8 +13,12 @@ function ControlPanel() {
         <RegisterPanel registerType="Special Registers" />
         <RegisterPanel registerType="Instruction Pointer" />
       </div>
-      <div className="xsm-control-panel__side-nav">Side NavBar</div>
-      <div className="xsm-control-panel__debug-controls"></div>
+      <div className="xsm-control-panel__side-nav">
+        <SideNavBar />
+      </div>
+      <div className="xsm-control-panel__debug-buttons">
+        <ActionBar />
+      </div>
     </div>
   );
 }

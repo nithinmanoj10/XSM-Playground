@@ -1,0 +1,39 @@
+.xsm-instruction-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  padding: 20px;
+
+  border-top: 0.8px solid var(--col-primary-border-grey);
+
+  &__pill {
+    padding-right: 40px;
+
+    &__name {
+      margin-bottom: 5px;
+    }
+
+    &__info {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+      background-color: var(--one-dark-primary-blue);
+
+      padding: 10px;
+      border-radius: 10px;
+      font-family: "Hack";
+
+      .instruction-number {
+        margin-right: 15px;
+        color: var(--col-font-line-number);
+        font-size: 14px;
+      }
+
+      .instruction-value {
+        font-size: 14px;
+        color: var(--col-font-code-text);
+      }
+    }
+  }
+}

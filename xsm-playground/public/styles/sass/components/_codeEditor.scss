@@ -2,19 +2,20 @@
   flex-grow: 1;
   flex-basis: 60px;
 
-  padding: 20px;
-
+  // padding: 20px;
   max-height: 100%;
-  // display: block;
-  // position: absolute;
-  // height:auto;
+  // border-right: 0.8px solid var(--col-primary-border-grey);
 
-  border-right: 0.8px solid var(--col-primary-border-grey);
+  display: grid;
+  grid-template-rows: 1fr 100px;
+  // gap: 20px;
 }
 
 .cm-theme {
   height: 100% !important;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  // box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 20px;
+  // margin: 20px;
 }
 
 // For code editor font
