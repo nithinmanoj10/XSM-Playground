@@ -5,7 +5,7 @@ import React from "react";
 import RestartAltIcon from "@mui/icons-material/RestartAlt";
 import StopCircleOutlinedIcon from "@mui/icons-material/StopCircleOutlined";
 
-function ActionBar() {
+function ActionBar({ handleStart }) {
   return (
     <div className="xsm-action-bar">
       <a
@@ -35,6 +35,7 @@ function ActionBar() {
       <a
         href="javascript:void(0)"
         className="xsm-action-bar__button xsm-action-bar__button--start"
+        onClick={handleStart}
       >
         Start
       </a>

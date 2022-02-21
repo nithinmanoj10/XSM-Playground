@@ -5,7 +5,7 @@ import DebugControlPanel from "./DebugControlPanel";
 import ActionBar from "./ActionBar";
 import SideNavBar from "../NavBar/SideNavBar";
 
-function ControlPanel() {
+function ControlPanel({ handleStart }) {
   return (
     <div className="xsm-control-panel">
       <div className="xsm-control-panel__registers">
@@ -17,7 +17,7 @@ function ControlPanel() {
         <SideNavBar />
       </div>
       <div className="xsm-control-panel__debug-buttons">
-        <ActionBar />
+        <ActionBar handleStart={handleStart} />
       </div>
     </div>
   );
